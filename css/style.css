@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-size: 14pt;
+  font-family: 'Arvo', sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+
+h1 {
+  font: 28pt 'Arvo', sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+  text-align: right;
+}
+
+div.outcontain {
+	max-width: 1000px;
+	margin: auto auto;
+}
+
+div.contain {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-left: 10;
+	padding-right: 10;
+	text-align: justify;
+
+}
+
+
+p.subheader {
+  font-weight: bold;
+  color: #593d87;
+}
+
+
+img {
+  padding: 3pt;
+  float: right;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+a:link, a:visited {
+  color: #8094d6;
+}
+
+
+a:hover, a:active {
+  color: #FF9933;
+}
+
+
+div.footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+}
